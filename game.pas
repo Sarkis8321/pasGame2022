@@ -1,6 +1,6 @@
 ﻿uses GraphWPF, WPFObjects;
 
-var ballRadius := 20;
+var ballRadius := 30;
 
 var Ball := new CircleWPF(ballRadius,ballRadius,ballRadius,gcolor.FromRgb(255,0,0));
 var Enemy := new CircleWPF(810-ballRadius,610-ballRadius,ballRadius,gcolor.FromRgb(0,0,255));
